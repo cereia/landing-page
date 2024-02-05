@@ -24,7 +24,7 @@ body {
 
 /* padding for the page */
 
-.header, .hero, .cards, .testimony, .action, .footer {
+.header, .hero, .information, .testimony, .action, .footer {
   padding: 0 100px;
 }
 
@@ -52,7 +52,8 @@ body {
 
 a {
   text-decoration: none;
-  color: #f9faf8;
+  color: #e5e7eb;
+  font-size: 18px;
 }
 
 .footer {
@@ -98,8 +99,44 @@ button:hover {
 
 h1 {
   margin: 0;
+  font-size: 48px;
+  font-weight: 800;
 }
 
 .hero-subtext {
   margin: 10px 0 15px 0;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+/* information styling */
+.information {
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 5px;
+}
+
+.card-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  border: 4px solid #3882f6;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.info {
+  font-size: 36px;
+  font-weight: 800;
 }

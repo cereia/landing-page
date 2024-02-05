@@ -7,7 +7,6 @@ body {
 }
 
 /* page colors */
-
 .header, .hero, .footer {
   background-color: #1f2937;
   color: #f9faf8;
@@ -23,7 +22,6 @@ body {
 
 
 /* padding for the page */
-
 .header, .hero, .information, .testimony, .action, .footer {
   padding: 0 100px;
 }
@@ -63,7 +61,6 @@ a {
 
 
 /* button styling */
-
 button {
   background-color: #3882f6;
   color: #f9faf8;
@@ -85,6 +82,7 @@ button:hover {
   display: flex;
   padding: 50px 100px;
   gap: 25px;
+  justify-content: space-evenly;
 }
 
 .hero-img {
@@ -108,6 +106,7 @@ h1 {
   font-size: 18px;
   color: #e5e7eb;
 }
+
 
 /* information styling */
 .information {
@@ -139,4 +138,21 @@ h1 {
 .info {
   font-size: 36px;
   font-weight: 800;
+}
+
+
+/* testimony styling */
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 0;
+}
+
+.testimony {
+  padding: 50px 200px;
+}
+
+.author {
+  font-weight: 800;
+  text-align: end;
 }

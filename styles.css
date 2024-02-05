@@ -13,10 +13,6 @@ body {
   color: #f9faf8;
 }
 
-button {
-  background-color: #3882f6;
-}
-
 .info, .quote {
   color: #1f2937;
 }
@@ -65,3 +61,45 @@ a {
 }
 
 
+/* button styling */
+
+button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 5px;
+  border: 0;
+  padding: 3px 15px;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: #f9faf8;
+  color:#3882f6;
+  cursor: pointer;
+}
+
+
+/* hero styling */
+.hero {
+  display: flex;
+  padding: 50px 100px;
+  gap: 25px;
+}
+
+.hero-img {
+  display: flex;
+  flex-basis: 0;
+  background-color: darkgray;
+  min-width: 400px;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+.hero-subtext {
+  margin: 10px 0 15px 0;
+}
